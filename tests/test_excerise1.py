@@ -1,10 +1,10 @@
 from excerises.chapter1 import Game
 import pytest
-
+import re
 
 def test_valid_input():
 
-    game1 = Game(0, 100)
+    game1 = Game(100, re)
    
     guess_number = '5'
 
