@@ -1,6 +1,7 @@
-from excerises.chapter1 import Game
+from excerises.chapter1.excerise1 import Game
 import pytest
 import re
+
 
 def test_valid_input():
 
